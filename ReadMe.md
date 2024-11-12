@@ -21,7 +21,7 @@ The app’s user-friendly design allows users to search for locations easily, an
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/weather-forecast-app.git
+   git clone https://github.com/DevPro6269/CloudVista.git
 
 2.   Open the project folder:
 bash

@@ -234,8 +234,8 @@ function displayData(weather){
     <h1>${weather.city_name}</h1>
      <p class="text-3xl sm:text-4xl font-semibold">${weather.day}</p>
      <p class="text-5xl sm:text-6xl font-bold text-gray-500">${Math.floor(weather.temprature)}&deg;C</p>
-     <p>Humidity: ${weather.humidity}%</p>
-     <p>wind: ${weather.wind} M/S</p>
+     <p>Humidity: <i class="fa-solid fa-droplet"></i> ${weather.humidity}%</p>
+     <p>wind:<i class="fa-solid fa-wind"></i> ${weather.wind} M/S</p>
      <p class="border-2 p-1 px-2 w-fit rounded-lg text-white bg-yellow-300 font-semibold">${ weather.status}</p>
    `
   
@@ -267,8 +267,8 @@ let fiveDaysDiv= document.querySelector("#fivedays")  // Get the 5-day forecast 
           <div class="absolute inset-0 bg-white opacity-60"></div>
    <p class="text-2xl z-10 font-semibold">${weather[i].day}</p>
    <p class="text-4xl z-10 font-bold">${Math.floor(weather[i].temprature)}&deg;C</p>
-   <p class="z-10">Humidity: ${weather[i].humidity}%</p>
-   <p class="z-10">wind: ${weather[i].wind} M/S</p>
+   <p class="z-10">Humidity: <i class="fa-solid fa-droplet"></i> ${weather[i].humidity}%</p>
+   <p class="z-10">wind: <i class="fa-solid fa-wind"></i> ${weather[i].wind} M/S</p>
    <p class="border-2 z-10 px-2 w-fit rounded-lg text-white bg-yellow-300 font-semibold">${weather[i].status}&nbsp${checkWeather(weather[i])}</p>
  </div>
          `   
